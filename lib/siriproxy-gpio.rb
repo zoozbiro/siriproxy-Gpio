@@ -16,7 +16,6 @@ require 'net/ssh'
 # Remember to add other plugins to the "config.yml" file if you create them!
 ######
 
-class SiriProxy::Plugin::Example < SiriProxy::Plugin
 class SiriProxy::Plugin::gpio < SiriProxy::Plugin
   def initialize(config)
       
