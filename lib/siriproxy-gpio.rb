@@ -17,6 +17,7 @@ require 'net/ssh'
 ######
 
 class SiriProxy::Plugin::Example < SiriProxy::Plugin
+class SiriProxy::Plugin::gpio < SiriProxy::Plugin
   def initialize(config)
       
       #if you have custom configuration options, process them here!
